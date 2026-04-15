@@ -40,7 +40,17 @@ Ask Claude to build something (a dashboard, report, landing page), then say:
 
 Claude publishes the HTML and returns:
 - A public URL anyone can open
-- A delete key for removing the page later
+- A delete key for updating or removing the page later
+
+### Update a shared page
+
+Say `/share` again with the same file. Claude will ask if you want to update the existing link or create a new one. You can also say:
+
+```
+/update
+```
+
+Provide the slug and delete key. The URL stays the same — only the content changes.
 
 ### Unshare a page
 
